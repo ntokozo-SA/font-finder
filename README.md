@@ -1,8 +1,9 @@
 # Font Finder chrome extension🔍
 
-Demo Video (https://youtu.be/nG_RUNtUgiU)
+[![Demo Video](https://img.shields.io/badge/Demo-Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/nG_RUNtUgiU)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-blue?logo=google-chrome)](https://chrome.google.com/webstore)
-
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)](manifest.json)
 
 A sleek Chrome extension that instantly reveals font details when you highlight text on any webpage. Perfect for designers, developers, and anyone curious about typography!
 
@@ -47,7 +48,10 @@ fontfinder/
 ├── popup.js           # Popup interactivity
 ├── popup.css          # Popup styles (extension-only)
 ├── icon.svg           # Extension icon
-└── README.md          # This file
+├── icons/             # PNG icons for Chrome Web Store
+├── LICENSE            # MIT License
+├── README.md          # This file
+└── DEPLOYMENT.md      # Deployment guide
 ```
 
 ## 🛠️ Technical Details
@@ -73,6 +77,16 @@ fontfinder/
 - **`content.js`** - Handles text selection and font extraction
 - **`content.css`** - Tooltip styling (scoped to avoid page conflicts)
 - **`popup.css`** - Extension popup styling (isolated from webpages)
+
+## 🚀 Deployment
+
+Ready to publish? Check out our [Deployment Guide](DEPLOYMENT.md) for step-by-step instructions to publish on the Chrome Web Store!
+
+### Quick Deployment Steps:
+1. Generate PNG icons from `icon.svg`
+2. Test thoroughly
+3. Create Chrome Web Store developer account
+4. Submit for review
 
 ## 🎨 Screenshots
 
