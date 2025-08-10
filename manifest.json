@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Font Finder - Typography Inspector",
   "version": "1.0.0",
-  "description": "Instantly inspect font details (family, size, weight, color) by highlighting any text on webpages. Perfect for designers and developers!",
+  "description": "Highlight text to see font details instantly. Perfect for designers and developers!",
   "permissions": [
     "activeTab"
   ],
@@ -17,13 +17,9 @@
     "default_popup": "popup.html",
     "default_title": "Font Finder - Click to see instructions"
   },
-  "icons": {
-    "16": "icons/icon16.png",
-    "32": "icons/icon32.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },
   "author": "Font Finder Team",
   "homepage_url": "https://github.com/ntokozo-sa/font-finder",
+  "privacy_policy": "https://github.com/ntokozo-sa/font-finder/blob/main/PRIVACY_POLICY.md",
   "minimum_chrome_version": "88"
 } 
+
